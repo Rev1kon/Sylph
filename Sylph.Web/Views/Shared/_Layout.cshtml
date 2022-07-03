@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sylph.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light shadow position-static">
+                    <div class="container">
+                        <a class="navbar-brand text-info font-weight-bolder" style="font-size:44px;" href="@Url.Action("Index", "Home")">SYLPH</a>
+                        <div>
+                            <form method="get" action="@Url.Action("Search", "Goods")">
+                                <div class="input-group mb-3 mt-3" style="width: 375px;">
+                                    <input type="text" name="searchQuery" class="form-control input-text border-info" style="font-size:1.2rem; font:bold;" placeholder="Пошук...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-info btn-lg" style="font-size: 0.75rem" type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main role="main" class="shadow">
+                @RenderBody()
+            </main>
+        </div>
+        <footer>
+            <section class="py-5">
+                <div class="container">
+                    <h2 style="font-size: 34px;" class="font-weight-bold">Про нас</h2>
+                    <p style="font-size: 20px; font-style: italic;">
+                        <strong>Sylph</strong> - це сервіс, створений споживачами для сповижавачів, кожного з нас приваблюють низькі ціни.
+                        <br>З нашою допомогою, ви швидко знайдете необхідний товар і побачите його вартість у різних продавців.
+                    </p>
+                </div>
+            </section>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </div>
+</body>
+</html>

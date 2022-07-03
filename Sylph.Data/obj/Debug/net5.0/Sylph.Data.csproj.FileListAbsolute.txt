@@ -1,0 +1,12 @@
+C:\Users\Andrii\source\repos\Sylph.Data\bin\Debug\net5.0\Sylph.Data.deps.json
+C:\Users\Andrii\source\repos\Sylph.Data\bin\Debug\net5.0\Sylph.Data.dll
+C:\Users\Andrii\source\repos\Sylph.Data\bin\Debug\net5.0\ref\Sylph.Data.dll
+C:\Users\Andrii\source\repos\Sylph.Data\bin\Debug\net5.0\Sylph.Data.pdb
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.csproj.AssemblyReference.cache
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.AssemblyInfoInputs.cache
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.AssemblyInfo.cs
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.csproj.CoreCompileInputs.cache
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.dll
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\ref\Sylph.Data.dll
+C:\Users\Andrii\source\repos\Sylph.Data\obj\Debug\net5.0\Sylph.Data.pdb
