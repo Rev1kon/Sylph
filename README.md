@@ -1,8 +1,10 @@
-A quick and fun app to search for goods` prices using web scraping without depending on any existing platform. 
+A quick and fun app to search for goods prices using web scraping without depending on any existing platform. 
 Known issues:  
+  
   0. Existing searching method is quite unstable, requires an improvement or might be changed completely.
   1. Slow, I have some ideas to make it use multiple threads, but more time is needed.
   2. DB needs more site frames, both for testing and proper usage.
+  
 Improvement ideas:
   0. TESTS!!!!!!!
   1. Customer functionality(profile, cart, etc).
